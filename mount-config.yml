@@ -1,0 +1,11 @@
+logging:
+  severity: trace
+metadata-cache:
+  negative-ttl-secs: 0
+  stat-cache-max-size-mb: -1
+  ttl-secs: -1
+  type-cache-max-size-mb: -1
+  experimental-metadata-prefetch-on-mount: async
+implicit-dirs: true
+write:
+  enable-streaming-writes: true
